@@ -17,6 +17,7 @@ public with sharing class PokemonCallout {
 
             for (PokemonWrapper.StatsWrapper statsWrapper :pokemonDetails.stats) {
                 system.debug('statsWrapper: ' + statsWrapper);
+                
             }
         }
     }
