@@ -19,6 +19,9 @@ public with sharing class PokemonCallout {
                 system.debug('statsWrapper: ' + statsWrapper);
                 
             }
+
+            system.debug('statsWrapperTeste: ' + pokemonDetails.sprites.other);
+            
         }
     }
 }
